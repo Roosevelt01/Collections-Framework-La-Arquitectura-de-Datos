@@ -6,8 +6,7 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        Set<String> emails = new HashSet<>(
-                List.of(
+        Set<String> emails = new HashSet<>(List.of(
                         "rodriguez299@gmail.com",
                         "martinez47@gmail.com",
                         "jason229@gmail.com",
@@ -37,7 +36,5 @@ public class Main {
 
         // Mostrar tamaño final
         System.out.println("\nTamaño real: " + emails.size());
-
-
     }
 }
