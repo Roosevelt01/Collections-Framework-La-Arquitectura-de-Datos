@@ -1,12 +1,11 @@
-package Collections_Framework.List.Ejercicio1;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         //1. Agregar 5 nombres
-        List<String> names = new ArrayList<>(List.of("Alejandro", "Duhaa", "Jason", "Arleth", "Thiago"));
+        List<String> names = new ArrayList<>(
+            List.of("Alejandro", "Duhaa", "Jason", "Arleth", "Thiago"));
 
         //2. Imprimir el primer nombre
         System.out.println("Primer nombre: "+names.get(0));
@@ -28,3 +27,4 @@ public class Main {
 
     }
 }
+
