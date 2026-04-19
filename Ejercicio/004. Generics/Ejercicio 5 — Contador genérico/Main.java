@@ -11,9 +11,8 @@ public class Main {
 
         for(T list: lista) {
 
-            int valorActual = 0;
             if (contador.containsKey(list)) {
-                valorActual = contador.get(list);
+                int valorActual = contador.get(list);
 
                 contador.put(list, valorActual+1);
             } else {
